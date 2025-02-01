@@ -1,6 +1,61 @@
 #Link1{
-    color: orangered;
+    color: white;
+    text-decoration-line: none;
+    border:2px black solid;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+#Link2 {
+color: white;
+    text-decoration-line: none;
+    border: 2px black solid;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+    margin-right: 10px;
+        margin-left: 10px;
+}
+#Link3 {
+    
+color: white;
+    text-decoration-line: none;
+    border: 2px black solid;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+    margin-right: 10px;
+        margin-left: 10px;
 }
 *{
     color: green;
 }
+
+li:hover{
+    font-size: x-large;
+}
+#indian_food {
+    opacity: 0.3;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Credits{
+    border: 2px black solid;
+    color: white;
+    background-color: orangered;
+}
+
+
+
