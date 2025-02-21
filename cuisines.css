@@ -35,10 +35,18 @@ color: white;
 }
 *{
     color: green;
+    font-family: cursive;
+   
 }
 
 li:hover{
     font-size: x-large;
+    
+}
+li{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
 }
 #indian_food {
     opacity: 0.3;
@@ -50,12 +58,16 @@ p{
 img{
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 #Credits{
     border: 2px black solid;
     color: white;
     background-color: orangered;
+    
 }
+
+
 
 
 

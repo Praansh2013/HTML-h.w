@@ -3,6 +3,19 @@
     <head>
         <title>Indian cuisines</title>
         <link rel="stylesheet" href="cuisines.css">
+        <style>
+        .flex-container{
+         display: flex;
+         justify-content: space-around;
+         flex-direction: row;
+         
+         height: 200px;
+         padding: 20px;
+        }
+        .flex-container li{
+            padding: 5px;
+        }
+        </style>
     </head>
     <body>
         <header>
@@ -13,18 +26,22 @@
             
           </figure>
             
-            <nav>
-                <a id="Link1" href="https://en.wikipedia.org/wiki/Bengali_cuisine">Bengali cuisine</a>
-                <a id="Link2" href="https://en.wikipedia.org/wiki/Bihari_cuisine">Bihari cuisine</a>
-                <a id="Link3" href="https://en.wikipedia.org/wiki/Kashmiri_cuisine">Kashmiri cuisine</a> 
+            <div class="flex-container">
+            
+                <li><a id="Link1" href="https://en.wikipedia.org/wiki/Bengali_cuisine">Bengali cuisine</a></li>
+              <li> <a id="Link2" href="https://en.wikipedia.org/wiki/Bihari_cuisine">Bihari cuisine</a></li>
+              <li>  <a id="Link3" href="https://en.wikipedia.org/wiki/Kashmiri_cuisine">Kashmiri cuisine</a></li> 
+            </div>
+                
                     
                      
                     
                 
-            </nav>
+            
         </header>
         <main>
         <section>
+            
             <article>
                 <h2>Bengali cuisine</h2>
                 <p>
